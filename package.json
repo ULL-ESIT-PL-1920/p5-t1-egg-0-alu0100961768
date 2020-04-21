@@ -1,10 +1,12 @@
 {
-  "name": "p5-t1-egg-0-alu0100961768",
+  "name": "@ULL-ESIT-PL-1920/p5-t1-egg-0-alu0100961768",
   "version": "1.0.0",
   "description": "PL practica egg",
-  "main": "index.js",
+  "main": "lib/eggvm.js",
   "bin": {
-    "p5-t1-egg-0-alu0100961768": "egg.js"
+    "egg": "node egg.js",
+    "eggc": "node eggc.js",
+    "evm": "node evm.js"
   },
   "directories": {
     "example": "examples",
