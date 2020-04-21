@@ -1,0 +1,31 @@
+{
+  "name": "p5-t1-egg-0-alu0100961768",
+  "version": "1.0.0",
+  "description": "PL practica egg",
+  "main": "index.js",
+  "bin": {
+    "p5-t1-egg-0-alu0100961768": "egg.js"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "^13.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-PL-1920/p5-t1-egg-0-alu0100961768.git"
+  },
+  "author": "alu0100961768 <alu0100961768@ull.edu.es> (https://github.com/alu0100961768)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-PL-1920/p5-t1-egg-0-alu0100961768/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-PL-1920/p5-t1-egg-0-alu0100961768#readme"
+}
