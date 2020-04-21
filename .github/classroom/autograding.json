@@ -3,11 +3,12 @@
         {
           "name": "p5-t1-egg-0",
           "setup": "npm install",
+          "run": "npx mocha test/scopes.js",
           "input": "",
           "output": "",
           "comparison": "included",
           "timeout": 5,
           "points": null
         }
-      ]
-  }
+    ]
+}
