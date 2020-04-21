@@ -1,13 +1,3 @@
 {
-  "tests": [
-    {
-      "name": "p5-t1-egg-0",
-      "setup": "npm install",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 5,
-      "points": null
-    }
-  ]
-}
+
+  }
