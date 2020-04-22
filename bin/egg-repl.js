@@ -80,4 +80,4 @@ function eggRepl(){
     }
 }
 
-module.exports= eggRepl;
+eggRepl();
