@@ -131,3 +131,18 @@ Se usará una variable compartida llamada `lookahead` para guardar el token actu
 Una serie de ejemplos de programas .egg para comprabar el correcto funcionamiento del módulo.
 
 - `test` contiene los tests de la práctica.
+
+***
+
+### Retos práctica 1
+
+- [x] Aceptar corchetes del estilo `()[]{}`.
+
+- [ ] Incluir nuevos tests.
+
+***
+
+
+
+
+
