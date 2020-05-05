@@ -4,9 +4,7 @@
   "description": "PL practica egg",
   "main": "lib/eggvm.js",
   "bin": {
-    "egg": "node egg.js",
-    "eggc": "node eggc.js",
-    "evm": "node evm.js"
+    "egg": "./bin/egg.js"
   },
   "directories": {
     "example": "examples",
@@ -14,6 +12,7 @@
     "test": "test"
   },
   "dependencies": {
+    "commander": "^5.1.0",
     "readline": "^1.3.0",
     "should": "^13.2.3",
     "xregexp": "^4.3.0"
