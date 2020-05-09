@@ -1,10 +1,9 @@
-do{
-  define(x, arr[1, arr[3, 4]]),
-  print(x["sub"](1, 1)),
-  print(element[x, 1, 1]),
-  if(true, 
-  print(2), 
-  print("not 2")
-)
-}
-
+do(
+      define(x, 4),
+      define(setx, fun(val, 
+          set(x, val)
+        )
+      ),
+      setx(50),
+      print(x)
+    )
