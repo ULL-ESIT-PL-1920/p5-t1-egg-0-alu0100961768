@@ -1,6 +1,10 @@
 do{
   define(x, arr[1, arr[3, 4]]),
-  print("test"),
   print(x["sub"](1, 1)),
-  print(element[x, 1, 1])
+  print(element[x, 1, 1]),
+  if(true, 
+  print(2), 
+  print("not 2")
+)
 }
+
