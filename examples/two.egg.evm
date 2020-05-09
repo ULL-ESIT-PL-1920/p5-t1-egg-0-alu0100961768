@@ -2,318 +2,258 @@
   "type": "apply",
   "operator": {
     "type": "word",
-    "name": "do",
-    "l": 1
+    "name": "do"
   },
   "args": [
     {
       "type": "apply",
       "operator": {
         "type": "word",
-        "name": "define",
-        "l": 2
+        "name": "define"
       },
       "args": [
         {
           "type": "word",
-          "name": "sum",
-          "l": 2
+          "name": "sum"
         },
         {
           "type": "apply",
           "operator": {
             "type": "word",
-            "name": "fun",
-            "l": 3
+            "name": "fun"
           },
           "args": [
             {
               "type": "word",
-              "name": "nums",
-              "l": 3
+              "name": "nums"
             },
             {
               "type": "word",
-              "name": "other",
-              "l": 3
+              "name": "other"
             },
             {
               "type": "apply",
               "operator": {
                 "type": "word",
-                "name": "do",
-                "l": 4
+                "name": "do"
               },
               "args": [
                 {
                   "type": "apply",
                   "operator": {
                     "type": "word",
-                    "name": "print",
-                    "l": 5
+                    "name": "print"
                   },
                   "args": [
                     {
                       "type": "word",
-                      "name": "other",
-                      "l": 5
+                      "name": "other"
                     }
-                  ],
-                  "l": 5
+                  ]
                 },
                 {
                   "type": "apply",
                   "operator": {
                     "type": "word",
-                    "name": "define",
-                    "l": 6
+                    "name": "define"
                   },
                   "args": [
                     {
                       "type": "word",
-                      "name": "i",
-                      "l": 6
+                      "name": "i"
                     },
                     {
                       "type": "value",
-                      "value": 0,
-                      "l": 6
+                      "value": 0
                     }
-                  ],
-                  "l": 6
+                  ]
                 },
                 {
                   "type": "apply",
                   "operator": {
                     "type": "word",
-                    "name": "define",
-                    "l": 7
+                    "name": "define"
                   },
                   "args": [
                     {
                       "type": "word",
-                      "name": "sum",
-                      "l": 7
+                      "name": "sum"
                     },
                     {
                       "type": "value",
-                      "value": 0,
-                      "l": 7
+                      "value": 0
                     }
-                  ],
-                  "l": 7
+                  ]
                 },
                 {
                   "type": "apply",
                   "operator": {
                     "type": "word",
-                    "name": "while",
-                    "l": 8
+                    "name": "while"
                   },
                   "args": [
                     {
                       "type": "apply",
                       "operator": {
                         "type": "word",
-                        "name": "<",
-                        "l": 8
+                        "name": "<"
                       },
                       "args": [
                         {
                           "type": "word",
-                          "name": "i",
-                          "l": 8
+                          "name": "i"
                         },
                         {
                           "type": "apply",
                           "operator": {
                             "type": "word",
-                            "name": "length",
-                            "l": 8
+                            "name": "length"
                           },
                           "args": [
                             {
                               "type": "word",
-                              "name": "nums",
-                              "l": 8
+                              "name": "nums"
                             }
-                          ],
-                          "l": 8
+                          ]
                         }
-                      ],
-                      "l": 8
+                      ]
                     },
                     {
                       "type": "apply",
                       "operator": {
                         "type": "word",
-                        "name": "do",
-                        "l": 9
+                        "name": "do"
                       },
                       "args": [
                         {
                           "type": "apply",
                           "operator": {
                             "type": "word",
-                            "name": "define",
-                            "l": 9
+                            "name": "define"
                           },
                           "args": [
                             {
                               "type": "word",
-                              "name": "sum",
-                              "l": 9
+                              "name": "sum"
                             },
                             {
                               "type": "apply",
                               "operator": {
                                 "type": "word",
-                                "name": "+",
-                                "l": 9
+                                "name": "+"
                               },
                               "args": [
                                 {
                                   "type": "word",
-                                  "name": "sum",
-                                  "l": 9
+                                  "name": "sum"
                                 },
                                 {
                                   "type": "apply",
                                   "operator": {
                                     "type": "word",
-                                    "name": "element",
-                                    "l": 9
+                                    "name": "element"
                                   },
                                   "args": [
                                     {
                                       "type": "word",
-                                      "name": "nums",
-                                      "l": 9
+                                      "name": "nums"
                                     },
                                     {
                                       "type": "word",
-                                      "name": "i",
-                                      "l": 9
+                                      "name": "i"
                                     }
-                                  ],
-                                  "l": 9
+                                  ]
                                 }
-                              ],
-                              "l": 9
+                              ]
                             }
-                          ],
-                          "l": 9
+                          ]
                         },
                         {
                           "type": "apply",
                           "operator": {
                             "type": "word",
-                            "name": "define",
-                            "l": 10
+                            "name": "define"
                           },
                           "args": [
                             {
                               "type": "word",
-                              "name": "i",
-                              "l": 10
+                              "name": "i"
                             },
                             {
                               "type": "apply",
                               "operator": {
                                 "type": "word",
-                                "name": "+",
-                                "l": 10
+                                "name": "+"
                               },
                               "args": [
                                 {
                                   "type": "word",
-                                  "name": "i",
-                                  "l": 10
+                                  "name": "i"
                                 },
                                 {
                                   "type": "value",
-                                  "value": 1,
-                                  "l": 10
+                                  "value": 1
                                 }
-                              ],
-                              "l": 10
+                              ]
                             }
-                          ],
-                          "l": 10
+                          ]
                         }
-                      ],
-                      "l": 9
+                      ]
                     }
-                  ],
-                  "l": 8
+                  ]
                 },
                 {
                   "type": "word",
-                  "name": "sum",
-                  "l": 13
+                  "name": "sum"
                 }
-              ],
-              "l": 5
+              ]
             }
-          ],
-          "l": 3
+          ]
         }
-      ],
-      "l": 2
+      ]
     },
     {
       "type": "apply",
       "operator": {
         "type": "word",
-        "name": "print",
-        "l": 17
+        "name": "print"
       },
       "args": [
         {
           "type": "apply",
           "operator": {
             "type": "word",
-            "name": "sum",
-            "l": 17
+            "name": "sum"
           },
           "args": [
             {
               "type": "apply",
               "operator": {
                 "type": "word",
-                "name": "array",
-                "l": 17
+                "name": "array"
               },
               "args": [
                 {
                   "type": "value",
-                  "value": 1,
-                  "l": 17
+                  "value": 1
                 },
                 {
                   "type": "value",
-                  "value": 2,
-                  "l": 17
+                  "value": 2
                 },
                 {
                   "type": "value",
-                  "value": 3,
-                  "l": 17
+                  "value": 3
                 }
-              ],
-              "l": 17
+              ]
             },
             {
               "type": "value",
-              "value": 4,
-              "l": 17
+              "value": 4
             }
-          ],
-          "l": 17
+          ]
         }
-      ],
-      "l": 17
+      ]
     }
-  ],
-  "l": 2
+  ]
 }

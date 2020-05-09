@@ -8,13 +8,7 @@ commander
     .option('-c --compile <fileName>', 'compile the input egg program to produce a JSON containing the input egg AST')
     .option('-i --interpret <fileName>', 'interpret the input egg AST')
     .option('-r --run <fileName>', 'compile and run the input egg program')
-    //.option('-p --plugins [plugin1:plugin2:...:pluginK]', 'specify plugins', val => val.split(':'))
     .parse(process.argv);
-
-// Execute egg plugins
-/*if (commander.plugins) {
-    commander.plugins.forEach(require);
-}*/
 
 // Run the proper function or the REPL
 if (commander.run) {
